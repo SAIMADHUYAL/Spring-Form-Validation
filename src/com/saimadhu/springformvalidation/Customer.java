@@ -7,8 +7,8 @@ public class Customer {
 
 	private String firstName;
 	
-	@NotNull(message = "is reqired")
-	@Size(min = 1)
+	@NotNull
+	@Size(min = 5, message = "min 5 Characters")
 	private String lastName;
 	
 	

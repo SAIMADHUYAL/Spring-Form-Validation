@@ -22,7 +22,7 @@
 		
 			First Name: <form:input path="firstName"/><br><br>
 			
-			Last Name:*<form:input path="lastName"/>
+			Last Name:<span class="error">*</span><form:input path="lastName"/>
 			<form:errors path = "lastName" cssClass="error"/><br><br>
 			
 			<input type = "submit" value="Submit"/>
