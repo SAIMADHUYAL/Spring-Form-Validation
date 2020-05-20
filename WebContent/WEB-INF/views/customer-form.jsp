@@ -16,7 +16,7 @@
 
 	<body>
 
-		Fill put the form. * means required
+		Fill out the form. * means required
 		<br><br>
 		<form:form action="processForm" modelAttribute="customer">
 		
